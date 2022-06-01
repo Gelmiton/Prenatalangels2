@@ -4,5 +4,5 @@ from .models import Gestante
 class GestanteSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Gestante
-        fields = ('id', 'name', 'mae', 'dn', 'cpf', 'cns', 'endereco', 'unidade', 'empresa')
+        fields = ('id', 'name', 'mae', 'endereco', 'unidade', 'empresa')
         
