@@ -1,1 +1,2 @@
-web: gunicorn prenatal.wsgi --log-file -
+web: gunicorn prenatal.wsgi 
+
